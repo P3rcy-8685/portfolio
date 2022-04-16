@@ -1,0 +1,128 @@
+body{
+    background-image:url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;}
+  @keyframes window {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+#flex{
+    display: flexbox;
+}
+.port{
+    top:5%;
+    left:5%;
+}
+.email{
+    top:9%;
+    left:5%;
+}
+#myname{
+    display:none;
+}
+#myname:target{
+    display:table;
+    position:absolute;
+    top:35%;
+    left:35%;
+}
+#pers{
+    font-family:"Homemade Apple";
+}
+#who{
+    font-family:"Electrolize";
+}
+#box{
+    margin: auto;
+    background-color: #f3f3f3;
+    position: relative;
+    padding: 0px;
+    outline: 0px;
+    border: 1px #777 solid;
+    text-align: justify;
+    width: 150%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+  animation-name: window;
+  animation-duration: 0.5s;
+}
+.cont{
+    padding: 2px 16px;
+}
+#myname header{
+    background-color: rgba(28, 145, 207, 0.727);
+}
+#myname header h2{
+    font-family: "Press Start 2P";
+}
+#myname a{
+    text-decoration: none;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+  }
+#myname a:hover{
+    text-decoration: none;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    background-color: red;
+  }
+#myname p{
+    font-size:25px;
+    text-align:center;
+}
+.cont #random{
+    font-family: "Supermercado One";
+}
+#me1{
+    font-family: "Supermercado One";
+
+    text-align: left;
+    font-size: 2.5rem;
+    overflow: hidden;
+    border-right: .15em black;
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+      typing 1s steps(25, end) forwards;
+    animation-delay: 0.1s;
+  }
+  #me2{
+    font-family: "Supermercado One";
+
+    text-align: left;
+
+    font-size: 2.5rem; 
+      overflow: hidden;
+      border-right: .15em black;
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 1s steps(25, end) forwards;
+      animation-delay: 0.8s;
+
+  }
+
+  #me3{
+    font-family: "Supermercado One";
+
+    text-align: left;
+    font-size: 2.5rem; 
+    overflow: hidden;
+    border-right: .15em black; 
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+    typing 1s steps(25, end) forwards;
+    animation-delay: 1.8s;
+
+  }
