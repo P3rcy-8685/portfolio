@@ -21,14 +21,15 @@ body{
     background-attachment: fixed;
 
     }
+
     .port img{
-      width:70px;
-      height:auto;
+      width:100px;
+      height:100px;
     
     }
     .email img{
-      width:70px;
-      height:70px;
+      width:100px;
+      height:100px;
     
     }
 
@@ -45,7 +46,7 @@ body{
     left:5%;
 }
 .port img{
-  width:100px;
+  width:50px;
   height:30px;
 
 }
