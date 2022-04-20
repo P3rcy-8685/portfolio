@@ -10,7 +10,17 @@ body{
   }
   @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 20% }
+  }
+  @media (max-width: 600px) {
+    body{
+      background-image:url("android.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    }
   }
 #flex{
     display: flexbox;
@@ -39,14 +49,13 @@ body{
     font-family:"Electrolize";
 }
 #box{
-    margin: auto;
+  margin-top: 0%;
+    margin-left: 15%;
     background-color: #f3f3f3;
-    position: relative;
-    padding: 0px;
-    outline: 0px;
+    position: absolute;
     border: 1px #777 solid;
     text-align: justify;
-    width: 150%;
+    width: 50vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      
   animation-name: window;
@@ -97,11 +106,9 @@ body{
       typing 1s steps(25, end) forwards;
     animation-delay: 0.1s;
   }
-  #me2{
+#me2{
     font-family: "Supermercado One";
-
     text-align: left;
-
     font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em black;
@@ -112,10 +119,8 @@ body{
       animation-delay: 0.8s;
 
   }
-
-  #me3{
+ #me3{
     font-family: "Supermercado One";
-
     text-align: left;
     font-size: 2.5rem; 
     overflow: hidden;
