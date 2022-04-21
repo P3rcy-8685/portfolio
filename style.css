@@ -20,7 +20,7 @@ body{
     }
     #mes{
       height:200px;
-      width:50px;
+      width:100%;
     }
     #about{
       width: 100px;
@@ -121,7 +121,7 @@ body{
     display:table;
     position:absolute;
     top:20%;
-    left: 20%;
+    left: 15%;
 }
 #pers{
     font-family:"Homemade Apple";
