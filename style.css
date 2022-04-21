@@ -21,7 +21,7 @@ body{
     }
     #mes{
       height:200px;
-      width:390px;
+      width:200px;
     }
     #about{
       width: 100px;
@@ -37,7 +37,7 @@ body{
     
     }
     #box{
-      width:430px;
+      width:250px;
       top:20%;
       left:0px;
     }
