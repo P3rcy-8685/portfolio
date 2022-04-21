@@ -20,21 +20,21 @@ body{
     background-attachment: fixed;
     }
     #about{
-      width:150px;
-      height:100px; 
+      width: 100px;
+      height:80px; 
     }
     #emailic{
-      width:100px;
-      height:100px;
+      width:80px;
+      height:80px;
     }
     #port{
       font-family:Russo One;
-      font-size:30px;
+      font-size:20px;
       color:black;
   }
   #email{
       font-family:Russo One;
-      font-size:30px;
+      font-size:20px;
       color:black;                 
   }
 
