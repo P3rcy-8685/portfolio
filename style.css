@@ -2,7 +2,6 @@ body{
     background-image:url("bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-
     background-attachment: fixed;}
   @keyframes window {
     from {top:-100px;opacity: 0;}
@@ -21,7 +20,7 @@ body{
     }
     #mes{
       height:200px;
-      width:200px;
+      width:50px;
     }
     #about{
       width: 100px;
