@@ -17,21 +17,26 @@ body{
       background-image:url("android.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
     background-attachment: fixed;
-
     }
-
-    .port img{
+    #about{
+      width:150px;
+      height:100px; 
+    }
+    #emailic{
       width:100px;
       height:100px;
-    
     }
-    .email img{
-      width:100px;
-      height:100px;
-    
-    }
+    #port{
+      font-family:Russo One;
+      font-size:30px;
+      color:black;
+  }
+  #email{
+      font-family:Russo One;
+      font-size:30px;
+      color:black;                 
+  }
 
   }
 #flex{
@@ -40,20 +45,42 @@ body{
 .port{
     top:5%;
     left:5%;
+    font-family:Russo One;
+    font-size:10px;
+    color:black;
 }
 .email{
     top:9%;
     left:5%;
+    font-family:Russo One;
+    font-size:10px;
+    color:rgb(0, 0, 0)                 l;
 }
-.port img{
+@media (min-width:601px){
+#about{
   width:50px;
   height:30px;
 
 }
-.email img{
+#emailic{
   width:40px;
   height:30px;
 
+}
+#port{
+  top:5%;
+  left:5%;
+  font-family:Russo One;
+  font-size:15px;
+  color:black;
+}
+#email{
+  top:9%;
+  left:5%;
+  font-family:Russo One;
+  font-size:15px;
+  color:rgb(0, 0, 0)                 l;
+}
 }
 #myname{
     display:none;
