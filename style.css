@@ -38,6 +38,8 @@ body{
     }
     #box{
       width:auto;
+      top:20%;
+      left:0px;
     }
     #port{
       font-family:Russo One;
@@ -69,6 +71,10 @@ body{
     color:rgb(0, 0, 0)                 l;
 }
 @media (min-width:601px){
+  #form:target{
+    top:20%;
+    left: 20%;
+  }
 #about{
   width:50px;
   height:30px;
@@ -105,6 +111,8 @@ body{
 }
 #box{
   width:600px;
+  top:20%;
+  left: 15%;
 }
 }
 #myname{
@@ -123,8 +131,7 @@ body{
     font-family:"Electrolize";
 }
 #box{
-  top:20%;
-    left: 15%;
+
     background-color: #f3f3f3;
     position: absolute;
     border: 1px #777 solid;
@@ -184,8 +191,8 @@ body{
 #form:target{
     display:table;
     position:absolute;
-    top:20%;
-    left: 20%;
+    top:50px;
+    left:50px;
 }
 #form header{
   background-color: rgba(28, 145, 207, 0.727);
